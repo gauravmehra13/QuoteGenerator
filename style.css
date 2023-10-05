@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url("https://wallpapercave.com/wp/pJhlkBc.jpg") no-repeat center/cover;
+
+}
+.container{
+    width: 550px;
+    height: 450px;
+}
+
+.header{
+    font-size: 2rem;
+    border: 2px solid whitesmoke;
+    background-color: rgb(116, 115, 114);
+    padding: 5px;
+    width: 88%;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+.main-content{
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px ghostwhite;
+    padding-top: 50px;
+}
+
+
+.main-content .text-area{
+    
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content.person{
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px ;
+}
+
+#new-quote{
+    margin-top: 40px;
+    background-color: rgb(76, 77, 75);
+    border-radius: 30px;
+    height: 35px;
+    width: 180px;
+    font-size: larger;
+    color: white;
+}
+
+#new-quote:active{
+    background-color: lightblue;
+}
